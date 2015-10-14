@@ -1,0 +1,9 @@
+---
+applications:
+- name: cd-cities-ui
+  memory: 512M
+  instances: 1
+  path: build/libs/cities-ui-1.0.jar
+  services: [ citiesService ]
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
