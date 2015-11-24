@@ -7,3 +7,4 @@ applications:
   services: [ citiesService ]
   env:
     SPRING_PROFILES_ACTIVE: cloud
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
