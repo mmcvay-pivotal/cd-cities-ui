@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cd-cities-ui
+- name: cd-cities-ui-mmcvay
   memory: 512M
   instances: 1
   path: build/libs/cities-ui-1.0.jar
